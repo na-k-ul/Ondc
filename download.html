@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Page</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #EEEDEB;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        img{
+            border: 1px solid;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+            background-color: #E0CCBE;
+            border-radius: 10px;
+            border: 1px solid;
+        }
+        .download-button {
+            margin-bottom: 20px;
+        }
+        .download-button a {
+            display: inline-block;
+            padding: 20px 40px; 
+            background-color: #3C3633;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px; 
+        }
+        .steps {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .step {
+            margin: 0 10px;
+        }
+        .step img {
+            max-width: 100%;
+            height: auto;
+        }
+        .down{
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="download-button">
+            <a href="./a.exe" download>Download Now</a>
+        </div>
+        <br>
+        <div class="steps">
+            <div class="step">
+                <img src="./images/down.png" alt="Step 1" class="down">
+                <p><b>Step 1:</b> Open the downloaded file</p>
+            </div>
+            <div class="step">
+                <img src="./images/run.png" alt="Step 2">
+                <p><b>Step 2:</b> Press run</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

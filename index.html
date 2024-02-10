@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Program and Sparse Matrix</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #EEEDEB;
+        }
+        .container {
+            width: 70%;
+            margin: 0 auto;
+            display: flex;
+            padding-top: 8px;
+            padding-bottom: 20px;
+        }
+        .left-section, .right-section {
+            padding: 20px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .left-section {
+            background-color: #E0CCBE;
+            flex: 2;
+            border: 1px solid;
+            margin-right: 5px;
+        }
+        .right-section {
+            background-color: #E0CCBE;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .image-wrapper {
+            margin: 10px;
+            text-align: center;
+        }
+        .image-wrapper img {
+            max-width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .download-btn {
+            display: inline-block;
+            margin-bottom: 6px;
+            padding: 10px 20px;
+            background-color: #3C3633;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            border: 1px solid;
+        }
+        .download-btn:hover {
+            background-color: #747264;
+        }
+        .cmd {
+            height: 150px;
+        }
+        .down {
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+        .navbar {
+            background-color: #EEEDEB;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .navbar a {
+            margin: 0 10px;
+            color: #3C3633;
+            text-decoration: none;
+        }
+        .download-container {
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+            background-color: #E0CCBE;
+            border-radius: 10px;
+            border: 1px solid;
+        }
+        .download-button {
+            margin-bottom: 20px;
+        }
+        .download-button a {
+            display: inline-block;
+            padding: 20px 40px; 
+            background-color: #3C3633;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px; 
+        }
+        .steps {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .step {
+            margin: 0 10px;
+        }
+        .step img {
+            max-width: 100%;
+            height: auto;
+        }
+        .cen{
+            flex-direction: column;
+            align-items: center;
+        }
+        .left-img{
+            height: 300px;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About Us</a>
+    </div>
+    <div class="container">
+        <div class="left-section">
+            <h1>Optimal storage & retrieval in m*n sparse matrix</h1>
+            <p><u>Revolutionizing efficiency</u>: My code slashes processing time from O(10M*30K) to linear <b>O(N)</b> which makes it <b>10M times faster</b>. By leveraging <b>SPARSE MATRIX storage</b>, optimized <b>HASH and ARRAY</b>, and <b>DYNAMIC ALLOCATION</b>, it delivers unrivaled speed and space savings.</p>
+            <img class="left-img" src="./images/sparse.png" alt="Small Picture" style="max-width: 100%;">
+        </div>
+        <div class="right-section">
+            <a href="./a.exe" download onclick="window.location.href='#download-steps'" class="download-btn">Download C file</a>
+            <a href="./pin_codes.txt" download onclick="window.location.href='#download-steps'" class="download-btn">Download Test Case file</a>
+            <div class="image-wrapper">
+                <img src="./images/hash.png" alt="Sparse Matrix">
+                <p>Sparse Matrix</p>
+            </div>
+            <div class="image-wrapper">
+                <img src="./images/cmdnew.png" alt="Program Screenshot" class="cmd">
+                <p>Program Screenshot</p>
+            </div>
+        </div>
+    </div>
+    <div class="container cen" id="download-steps">
+        <div class="download-container">
+            
+            <br>
+            <div class="steps">
+                <div class="step">
+                    <img src="./images/down.png" alt="Step 1" class="down">
+                    <p><u>Step 1</u>: <b>OPEN</b> the downloaded file</p>
+                </div>
+                <div class="step">
+                    <img src="./images/run.png" alt="Step 2">
+                    <p><u>Step 2</u>: Press <b>RUN</b>(You might be asked if you trust this sourse, select yes)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
